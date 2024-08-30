@@ -1,0 +1,259 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+}
+
+.caja-principal {
+    position: absolute;
+    left: 20vi;
+    max-width: 60vi;
+    background-color: #f0eeee;
+    border: 0.1vi solid  #dfd9d9;
+    border-radius: 1vi;
+}
+
+.cajita {
+    margin-left: 0vi;
+    color: #000000;
+    font-size: 1vi;
+    border-bottom: 0.1vi solid  #dfd9d9;
+}
+.cajita p {
+    margin-left: 1vi;
+
+}
+
+.datos {
+    padding-top: 0.2vi;
+    padding-left: 0.5vi;
+    background-color: #f9f9f9;
+    border-radius: 0.2vi;
+}
+
+label {
+    margin-left: 1vi;
+    font-size: 1vi;
+    margin-bottom: 1vi;
+}
+
+.datos h2 {
+    font-size: 1.5vi;
+}
+
+.LN_P {
+    margin-right: 20vi;
+}
+
+.LE_A {
+    margin-right: 24vi;
+
+}
+
+.L_po {
+    margin-right: 26vi;
+}
+select{
+    font-size: 1vi;
+    width: 57vi;
+    padding: 0.5vi;
+    margin-right: 1.5vi;
+    margin-left: 1vi;
+    margin-bottom: 1vi;
+    border: 0.2vi solid #ccc;
+    border-radius: 0.5vi;
+    box-sizing: border-box;
+}
+
+.datoInput {
+    font-size: 1vi;
+    width: 26vi;
+    height: 1vi;
+    padding: 0.5vi;
+    margin-top: 0.5vi;
+    margin-left: 1.5vi;
+    margin-bottom: 2vi;
+    border: 0.2vi solid #ccc;
+    border-radius: 0.5vi;
+}
+
+.registro {
+    border: 0.2vi solid #8cb3d8;
+    background-color: #f0f0f0;
+    border-radius: 0.5vi;
+    margin-top: 1.5vi;
+    margin-left: 1vi;
+    margin-bottom: 1.5vi;
+    width: 56.6vi;
+}
+
+.registro{
+    margin-left: 1vi;
+    margin-bottom: 1vi;
+}
+.titulo-R{
+    border-bottom: 0.2vi solid #8cb3d8;
+}
+.titulo-R p{
+    margin-left: 1vi;
+    color: #000000;
+    font-size: 1vi;
+}
+.registro h2 {
+    margin-left: 1vi;
+    font-size: 1.5vi;
+    margin-bottom: 1vi;
+    color: #3f8cff;
+
+}
+
+.Text_info  {
+    margin-left: 1vi;
+    font-size: 1.2vi;
+    color: #007bff;
+}
+
+#newHeroButton {
+    font-size: 1vi;
+    padding: 1vi 1vi;
+    margin-left: 1vi;
+    margin-bottom: 1vi;
+    border: none;
+    color: #fff;
+    border-radius: 0.5vi;
+    background-color: #302f2f;
+    cursor: pointer;
+}
+#saveHeroButton {
+    font-size: 1vi;
+    padding: 1vi 1vi;
+    margin-left: 1vi;
+    border: none;
+    color: #fff;
+    border-radius: 0.5vi;
+    background-color: #2449ee;
+    cursor: pointer;
+}
+#cancelButton{
+    font-size: 1vi;
+    padding: 1vi 1vi;
+    margin-left: 1vi;
+    border: none;
+    color: #fff;
+    border-radius: 0.5vi;
+    background-color: #ee2424;
+    cursor: pointer;
+}
+#showHero{
+    font-size: 1vi;
+    padding: 1vi 1vi;
+    margin-left: 1vi;
+    border: none;
+    color: #fff;
+    border-radius: 0.5vi;
+    background-color: #eeda24;
+    cursor: pointer;
+}
+#updateHero{
+    font-size: 1vi;
+    padding: 1vi 1vi;
+    margin-left: 1vi;
+    border: none;
+    color: #fff;
+    border-radius: 0.5vi;
+    background-color: #3bee24;
+    cursor: pointer;
+}
+#deleteHero{
+    font-size: 1vi;
+    padding: 1vi 1vi;
+    margin-left: 1vi;
+    border: none;
+    color: #fff;
+    border-radius: 0.5vi;
+    background-color: #ee8624;
+    cursor: pointer;
+}
+#addButton{
+    font-size: 1vi;
+    padding: 1vi 1vi;
+    margin-bottom: 1vi;
+    margin-left: 1vi;
+    border: none;
+    color: #fff;
+    border-radius: 0.5vi;
+    background-color: #eea724;
+    cursor: pointer;
+}
+#newHeroButton:hover {
+    background-color: #5e5e5e;
+}
+#saveHeroButton:hover {
+    background-color: #496afc;
+}
+#cancelButton:hover {
+    background-color: #f04b4b;
+}
+#addButton:hover {
+    background-color: #e7bc6d;
+}
+#showHero:hover {
+    background-color: #e7dd83;
+}
+#updateHero:hover {
+    background-color: #90e784;
+}
+#deleteHero:hover {
+    background-color: #eb9a4e;
+}
+
+table {
+    font-size: 1.1vi;
+    margin-left: 1vi;
+    margin-bottom: 2vi;
+    max-width: 58vi;
+    border-collapse: collapse;
+}
+
+table th, table td {
+    padding: 1vi;
+    border: 0.2vi solid #ddd;
+    text-align: left;
+}
+
+table th {
+    background-color: #007bff;
+    color: #fff;
+}
+
+table tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+table tbody tr:hover {
+    background-color: #e0e0e0;
+}
+
+.N_traje{
+    font-size: 1vi;
+    margin-left: 8vi;
+}
+.inputTraje{
+    border: 0.2vi solid #ccc;
+    border-radius: 0.5vi;
+    width: 35vi;
+    font-size: 1vi;
+    margin-left: 8vi;
+    margin-top: 1vi;
+    margin-bottom: 2vi;
+}
+.delButton{
+    font-size: 1vi;
+    padding: 0.5vi 1vi;
+    margin-bottom: 1vi;
+    margin-left: 1vi;
+    border: none;
+    color: #fff;
+    border-radius: 0.5vi;
+    background-color: #ee2424;
+    cursor: pointer;
+}

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="caja-principal"  >
+        <div class="cajita"><p>Mis Heroes</p></div>
+        <div class="datos" >
+            <h2>Gestion de Heroes</h2>
+            <label class="LN_P" for="N_personaje">Nombre Personaje</label>
+            <label class="LN_A" for="N_actor">Nombre Actor</label>
+            <br>
+            <input required type="text" class="datoInput" id="N_personaje">
+            <input required type="text" class="datoInput" id="N_actor">
+            <br>
+            <label class="LE_A" for="Edad_a">Edad Actor</label>
+            <label class="L_U" for="Ubicacion">Ubicacion</label>
+            <br>
+            <input required type="text" class="datoInput" id="Edad_a">
+            <input required type="text" class="datoInput" id="Ubicacion">
+            <p>Nombre de la ciudad de origen</p>
+
+            <br>
+            <label class="L_po" for="Poster">Poster</label>
+            <label class="L_U2" for="fecha">Fecha</label>
+            <br>
+            <input required type="text" class="datoInput" id="Poster">
+            <input required type="date" class="datoInput" id="fecha">
+            <br>
+            <label class="L_P" for="Productora">Productora</label>
+            <br>
+            <select name="productora"  id="Productora">
+                <option value="Marvel">Marvel</option>
+                <option value="DC">DC</option>
+                <option value="LionsGate">LionsGate</option>
+
+            </select>
+            <div class="registro">
+                <div class="titulo-R"><p>Registro de Trajes</p></div>
+                <div>
+                    <h2>Trajes del personaje</h2>
+                    <p class="Text_info">En esta sección podra registrar los nombres de los trajes usados por el actor en cada una de las películas</p>
+                    <div>
+                        <button id="addButton">+</button>
+                        <div id="trajenuevo">
+                            <div id="inputR"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button id="newHeroButton">Nuevo Heroe</button>
+            <button id="saveHeroButton">Guardar Heroe</button>
+            <button id="cancelButton">Cancelar</button>
+            <button id="showHero">Mostrar Heroe</button>
+            <button id="updateHero">Actualizar Heroe</button>
+            <button id="deleteHero">Eliminar Heroe</button>
+        </div>
+        <table>
+            <thead>
+                <tr>
+                    <th>Nombre Personaje</th>
+                    <th>Nombre Actor</th>
+                    <th>Edad Actor</th>
+                    <th>Ubicacion</th>
+                    <th>Poster</th>
+                    <th>Ubicacion2</th>
+                    <th>Productora</th>
+                </tr>
+            </thead>
+            <tbody id="heroTableBody"></tbody>
+        </table>    
+    </div>
+    <script src="./js/script.js"></script>
+</body>
+</html>
