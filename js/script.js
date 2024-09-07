@@ -12,6 +12,7 @@ document.body.onload = function() {
     saveHeroButton.disabled = true;
 }
 
+
 document.addEventListener("DOMContentLoaded", function() {
     const N_personaje = document.getElementById('N_personaje');
     const N_actor = document.getElementById('N_actor');
