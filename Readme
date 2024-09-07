@@ -28,10 +28,6 @@ Virtualización:
 No se utilizó virtualización directa en este proyecto. Dado que la aplicación es estática y no necesita un entorno de ejecución complejo, no se requieren contenedores o máquinas virtuales.
 Pasos de Despliegue
 
-1. **Preparación del Entorno**
-Instalar Node.js (Opcional):
-
-
 ## Organización del Proyecto:
 Asegúrate de que todos los archivos de tu proyecto estén organizados en una estructura clara con carpetas para css, js, y cualquier otro recurso necesario.
 
@@ -55,7 +51,7 @@ Una vez desplegado, Netlify generará un subdominio gratuito. Puedes personaliza
 ## Publicación:
 Una vez configurado todo, tu sitio estará disponible en el dominio proporcionado.
 
-Consideraciones de Virtualización y Middleware
+# Consideraciones de Virtualización y Middleware
 
 1. **Virtualización**
 Entorno Local: Para desarrollo local, se puede usar un servidor web simple como live-server (si estás usando Node.js) para servir el proyecto en un entorno controlado.
@@ -74,4 +70,5 @@ Seguridad y Performance: Netlify maneja automáticamente SSL/TLS para asegurar l
 
 Escalabilidad: Aunque es una aplicación estática, el uso de un CDN a través de Netlify permite que la aplicación maneje un alto volumen de tráfico sin problemas.
 Seguridad: La implementación automática de SSL por parte de Netlify asegura que las conexiones sean seguras.
+
 Desempeño: Netlify optimiza la entrega de los archivos estáticos, lo que resulta en tiempos de carga rápidos, mejorando la experiencia del usuario.
